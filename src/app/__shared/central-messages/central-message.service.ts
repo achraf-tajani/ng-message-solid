@@ -1,9 +1,5 @@
 import { Inject, Injectable, Optional } from "@angular/core";
-import {
-  Message,
-  MESSAGE_LOGGERS,
-  MessageLogger,
-} from "./central-message.types";
+import { Message, MESSAGE_LOGGERS, MessageLogger } from "..";
 import { AbstractCentralMessage } from "./abstract-central-message";
 import { CentralMessageConfigurationService } from "./central-message-configuration.service";
 
